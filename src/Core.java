@@ -482,7 +482,7 @@ public class Core {
 	
 	
 	
-public String[] get_prop_Hash(String key) {
+	public String[] get_prop_Hash(String key) {
 		
 		try {
 			Properties props = new Properties();
@@ -519,19 +519,19 @@ public String[] get_prop_Hash(String key) {
 			//propFile.getProperty("XYZ").split(";");
 			//System.out.println("test array " +propFile);
 			
-			
-			  //get array split up by the semicolin
+//			
+//			  //get array split up by the semicolin
 			  String a = propFile.getProperty(key);
 			  String[] parts = a.split(Pattern.quote(";"));
-			  String parts1 = parts[0];
-			  String parts2 = parts[1];
-			  String parts3 = parts[2];
-			  String parts4 = parts[3];
-			  String parts5 = parts[4];
-			  String parts6 = parts[5];
-			  String parts7 = parts[6];
-			  String parts8 = parts[7];
-			  String parts9 = parts[8];
+//			  String parts1 = parts[0];
+//			  String parts2 = parts[1];
+//			  String parts3 = parts[2];
+//			  String parts4 = parts[3];
+//			  String parts5 = parts[4];
+//			  String parts6 = parts[5];
+//			  String parts7 = parts[6];
+//			  String parts8 = parts[7];
+//			  String parts9 = parts[8];
 			 
 			  
 			  System.out.println("test a " +a);

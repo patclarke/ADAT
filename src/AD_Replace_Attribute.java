@@ -139,7 +139,7 @@ public class AD_Replace_Attribute {
 
 		     execute_update("ipPhone", Core.get_prop(Main.homeOffice.getSelectedItem().toString().toUpperCase() + "_IP_PHONE") + " x" + Main.IPext.getText());
 		     Core.echo("updating IP Phone with ext to: " + Core.get_prop(Main.homeOffice.getSelectedItem().toString().toUpperCase() + "_IP_PHONE") + " x" + Main.IPext.getText());
-		     
+		     Core.echo("new_input_recorded =" + new_input_recorded);
 		     
 		     
 		     
